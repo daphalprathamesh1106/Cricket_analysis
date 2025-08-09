@@ -47,6 +47,47 @@ then produces both:
 ### 4. **Fielding Mechanics**
 - **Anticipation reaction time** (from ball trajectory cues)  
 - **Dive mechanics**  
-- **Throwing angle and arm extension**  
+- **Throwing angle and arm extension**
+
+
+**Analysis Workflow**
+1. Pose Detection & Keypoint Extraction
+Library: MediaPipe Pose
+
+Detects 33 body landmarks per frame with (x, y, z) coordinates & visibility score.
+
+Stores results in CSV format for analysis.
+
+2️. Action Classification
+Uses heuristic rules on landmark positions:
+
+Bowling: High wrist position at release.
+
+Batting: Stable stance, symmetric knees.
+
+Follow-through: Large rotation + forward motion.
+
+Fielding: Extended arms, crouch posture.
+
+3️. Biomechanical Analysis
+Batting → Stance angle, bat angle, pre-shot movement
+
+Bowling → Run-up stride length, elbow extension at release
+
+Follow-through → Stability, upper-lower body torque
+
+Fielding → Dive form, throwing arm extension
+
+4️. 3D Skeleton Visualization
+Plots detected landmarks in 3D using Matplotlib.
+
+Connects joints to form a moving skeleton.
+
+Compiles frames into a 3D motion video.
+
+5️. Output
+CSV files: Store action-specific biomechanical data.
+
+MP4 video: 3D skeleton animation for motion replay.
 
 
