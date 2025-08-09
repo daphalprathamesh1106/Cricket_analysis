@@ -3,6 +3,8 @@ AI model for Cricket biomechanics analysis using MediaPipe, OpenCV, and 3D skele
 
 ##Dataset: https://drive.google.com/drive/folders/1ACgf4r5BjZjPluHfeK5vKbrNbEtQib6A?usp=drive_link
 
+Download these videos and then provide the path for each of them in the code. 
+
 
 # Cricket Multi-Role Motion Analysis with 3D Skeletons
 
