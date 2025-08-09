@@ -50,7 +50,7 @@ then produces both:
 - **Throwing angle and arm extension**
 
 
-**Analysis Workflow**
+## Analysis Workflow
 1. Pose Detection & Keypoint Extraction
 Library: MediaPipe Pose
 
