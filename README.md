@@ -5,6 +5,8 @@ Dataset: https://drive.google.com/drive/folders/1ACgf4r5BjZjPluHfeK5vKbrNbEtQib6
 
 Download these videos and then provide the path for each of them in the code. 
 
+Due to large size of output files, I have uploaded them on drive: https://drive.google.com/drive/folders/1WdhLsw1cwDY9IqbiLDX77xzQcfvrBeXb?usp=sharing
+
 
 # Cricket Multi-Role Motion Analysis with 3D Skeletons
 
